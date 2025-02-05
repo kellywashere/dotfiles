@@ -1,0 +1,33 @@
+alias x='exit'
+alias activate='source ./venv/bin/activate'
+alias vi=nvim
+alias n=nvim
+# alias vim=nvim
+# alias gvim=nvim-qt
+alias ls='ls -h --color=auto --group-directories-first'
+# some more ls aliases
+alias ll='ls -alF'
+alias la='ls -A'
+alias l='ls -CF'
+## alias em='emacs'
+alias mv='mv -vi'
+
+alias please='sudo'
+
+alias crt='QT_QUICK_CONTROLS_STYLE=Material cool-retro-term'
+
+alias gita='git add'
+alias gitc='git commit'
+alias gitl='git log'
+alias gitp='git push'
+alias gitpl='git pull'
+alias gits='git status'
+
+alias pwdc='pwd | xclip -i'
+alias cdc='cd $(xclip -o)'
+
+alias run='make run'
+
+alias e='nvim'
+alias ee='NVIM_APPNAME=nvim1 nvim'
+
