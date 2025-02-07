@@ -101,13 +101,12 @@ fi
 # Short press of ctrl key (dn, up again) --> Esc
 #pgrep -x xcape >/dev/null || xcape -e "Control_L=Escape"
 
-## [ -z "$DISPLAY" -a "$(fgconsole)" -eq 1 ] && exec startx
-if [ -z "$DISPLAY" ]; then
-	if [ "$(fgconsole)" -eq 1 ]; then
-		#        true
-		exec startx
-	fi
-fi
+# if [ -z "$DISPLAY" ]; then
+# 	if [ "$(fgconsole)" -eq 1 ]; then
+# 		#        true
+# 		exec startx
+# 	fi
+# fi
 
 # for prboom music:
 export SDL_SOUNDFONTS=/usr/share/soundfonts/FluidR3_GM.sf2
@@ -131,3 +130,4 @@ if test -n "$KITTY_INSTALLATION_DIR" -a -e "$KITTY_INSTALLATION_DIR/shell-integr
 # export NVIM_APPNAME="nvim-kickstart"
 export NVIM_APPNAME="nvim"
 
+eval "$(starship init bash)"

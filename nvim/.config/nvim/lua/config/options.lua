@@ -10,6 +10,9 @@ vim.opt.autowrite = true
 
 vim.opt.clipboard:append("unnamedplus") -- use system clipboard as default registerj
 
+vim.opt.ignorecase = true -- Case-insensitive searching UNLESS \C or capital in search (default: false)
+vim.opt.smartcase = true -- Smart case (default: false)
+
 -- Don't show the mode, since it's already in the status line
 --vim.opt.showmode = false
 
