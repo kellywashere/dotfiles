@@ -26,7 +26,7 @@ repo_root_style = 'bold purple'
 
 [cmd_duration]
 min_time = 4_000
-show_milliseconds = true
+show_milliseconds = false
 
 [git_metrics]
 disabled = false
