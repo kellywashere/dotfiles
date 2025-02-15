@@ -28,6 +28,13 @@ repo_root_style = 'bold purple'
 min_time = 4_000
 show_milliseconds = false
 
+[git_status]
+disabled = false
+ahead = ''
+behind = ''
+deleted = '󰚌'
+deverged = '󰃻'
+
 [git_metrics]
 disabled = false
 
