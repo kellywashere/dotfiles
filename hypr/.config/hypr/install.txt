@@ -1,0 +1,11 @@
+- pipewire-pulse
+- kitty
+- ttf-monofur-nerd
+- hyprpaper
+- hyprcursor
+- hyprlock
+- hypridle
+- waybar
+- rofi-wayland
+- brightnessctl
+
