@@ -33,7 +33,7 @@ disabled = false
 ahead = ''
 behind = ''
 deleted = '󰚌'
-deverged = '󰃻'
+diverged = '󰃻'
 
 [git_metrics]
 disabled = false
