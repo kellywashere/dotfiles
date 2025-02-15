@@ -47,6 +47,9 @@ format = '[ \[$time\]]($style) '
 time_format = '%k:%M'
 style = 'red'
 
+[python]
+symbol = '  '
+
 [[battery.display]]
 threshold = 30
 style = 'bold red'
