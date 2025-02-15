@@ -1,3 +1,4 @@
+- starship
 - pipewire-pulse
 - kitty
 - ttf-monofur-nerd
